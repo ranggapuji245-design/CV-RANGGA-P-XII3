@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae | Rangga Puji Prawara</title>
+    <style>
+        :root {
+            --primary-blue: #1a3a5f;
+            --accent-blue: #4a90e2;
+            --light-blue: #f0f7ff;
+            --text-dark: #2c3e50;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-blue);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Sidebar / Profil Kiri */
+        .sidebar {
+            flex: 1;
+            min-width: 300px;
+            background-color: var(--primary-blue);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid var(--accent-blue);
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .sidebar h1 { margin: 10px 0; font-size: 24px; }
+        .sidebar p { font-size: 0.9em; opacity: 0.8; }
+
+        .contact-info {
+            text-align: left;
+            margin-top: 30px;
+        }
+
+        .info-item { margin-bottom: 15px; font-size: 0.85em; }
+        .info-item strong { display: block; color: var(--accent-blue); }
+
+        /* Konten Utama */
+        .main-content {
+            flex: 2;
+            min-width: 350px;
+            padding: 40px;
+        }
+
+        h2 {
+            color: var(--primary-blue);
+            border-bottom: 2px solid var(--accent-blue);
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        .section-content { margin-bottom: 20px; }
+        
+        .skill-badge {
+            display: inline-block;
+            background: var(--accent-blue);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            margin: 5px 2px;
+        }
+
+        .timeline-item {
+            margin-bottom: 15px;
+            padding-left: 15px;
+            border-left: 3px solid var(--light-blue);
+        }
+
+        .timeline-date { font-weight: bold; color: var(--accent-blue); }
+
+        @media (max-width: 768px) {
+            .container { margin: 10px; }
+            .sidebar { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="sidebar">
+        <img src="WhatsApp Image 2026-02-04 at 09.12.05.jpeg" alt="Rangga Puji Prawara" class="profile-img">
+        <h1>Rangga Puji Prawara</h1>
+        <p>Lahir: 24 Februari 2007</p>
+        
+        <div class="contact-info">
+            <div class="info-item"><strong>Telepon</strong> 083130997913</div>
+            <div class="info-item"><strong>Instagram</strong> @ranggapuji_</div>
+            <div class="info-item"><strong>Alamat</strong> Grand Cendana Residence</div>
+            <div class="info-item"><strong>Bahasa</strong> Indonesia & Mandarin</div>
+        </div>
+
+        <h2 style="color: white; border-color: white;">Hobby</h2>
+        <p>Makan & Tidur (Rest & Recharge Expert)</p>
+    </div>
+
+    <div class="main-content">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah pribadi yang baik hati dan memiliki kemampuan komunikasi yang kuat. Saya percaya bahwa komunikasi adalah kunci dalam membangun hubungan profesional maupun personal yang baik.</p>
+
+        <h2>Pendidikan</h2>
+        <div class="timeline-item">
+            <div class="timeline-date">2022 - 2026</div>
+            <strong>SMA KP Baleendah</strong>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">2018 - 2022</div>
+            <strong>SMP Pesantren Sinarasa</strong>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">Lulus 2018</div>
+            <strong>SD Bojongmangu 1</strong>
+        </div>
+
+        <h2>Pengalaman Organisasi</h2>
+        <div class="timeline-item">
+            <div class="timeline-date">2021 - 2023</div>
+            <strong>Ketua OSIS</strong>
+            <p>Memimpin organisasi siswa dengan fokus pada pengembangan karakter dan kegiatan kolaboratif.</p>
+        </div>
+
+        <h2>Keahlian</h2>
+        <span class="skill-badge">Menggambar</span>
+        <span class="skill-badge">Komunikasi Publik</span>
+        <span class="skill-badge">Kepemimpinan</span>
+        <span class="skill-badge">Bahasa Mandarin</span>
+
+        <h2>Sertifikat & Penghargaan</h2>
+        <ul style="padding-left: 20px;">
+            <li>Kitab Majmuan</li>
+            <li>Dewan Penggalang</li>
+            <li>Kitab Safiah</li>
+            <li>Olimpiade PABP</li>
+            <li>Olimpiade Matematika</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
